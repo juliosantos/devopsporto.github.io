@@ -1,115 +1,181 @@
---- 
-layout: default 
 ---
-
+layout: default
+---
 <div class="hero">
   <div class="hero-body">
-    <h1 class="title">
-      A Special Thanks To Our Sponsors And Partners
-    </h1>
+      <h1 class="title">
+          Sponsors
+      </h1>
   </div>
 </div>
 <div class="columns content">
   <div class="column is-auto">
 
     <div class="box">
-      <h2>Sponsors</h2>
-      <div class="columns">
-        <div class="column is-one-third">
-          
-        </div>
-        <div class="column is-one-third">
-          <a href="https://www.red-gate.com/" target="_blank">
-            <img alt="Redgate" src="/assets/images/sponsors/Redgate_Logo.png" />
-          </a>
-        </div>
-        <div class="column is-one-third">
-          
-        </div>
-      </div>
-      <h3>Partners</h3>
-      <div class="columns">
-         
-          <div class="column is-one-third">
-            <a href="https://2018.agilept.org/" target="_blank">
-              <img alt="Agile Portugal" src="assets/images/sponsors/agilept.png" />
-            </a>
+
+      <!-- Eduardo Piairo -->
+      <article class="media">
+        {% include components/sponsorimage.html imagename="redgate.png" %}
+        <div class="media-content">
+          <div class="content">
+            <p>
+              Deployment pipeline craftsman always ready to learn new ways to implement Source Control, Continuous Integration
+              and Continuous Delivery for databases, applications and infrastructure. The deployment pipeline it's my favorite technical and cultural tool.
+            </p>
+            <p>
+                Operations engineer @ <a href="https://www.basecone.com/" target="_blank">Basecone</a> , DevOps prosecutor with automation, collaboration and communication as priorities.
+                Also, a database administrator with special interest in database changes and data modeling.
+            </p>
           </div>
-          <div class="column is-one-third">
-              <a href="http://www.humanops.com/" target="_blank">
-                <img alt="HumanOps" src="assets/images/sponsors/humanops.png" />
-              </a>
-            </div>
-      </div>
+        </div>
+      </article>
 
-      <h3>Hosts</h3>
-      <div class="columns">
-        <div class="column is-one-forth">
-          <a href="http://uptec.up.pt" target="_blank">
-            <img alt="UPTec" src="assets/images/hosts/uptec.png" />
-          </a>
+      <!-- Miguel Alho -->
+      <article class="media">
+        {% include components/teamimage.html imagename="miguelalho.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Miguel Alho</h3>
+            {% include components/teamhandle.html twitter="MytyMyky" linkedin="miguel-alho-9982331" github="miguelalho" %}
+            <p>
+              Full-time, 13-years-in-the-making, software engineer with a DevOps and Craftsmanship mindset. Previously, I worked
+              mainly as a dev freelancer, but also as a consultant, school teacher, media producer and project manager.</p>
+            <p>
+              I'm a very big fan of TDD as a development practice, very fond of microservices, of automating as much as possible in
+              the dev, build and deploy pipeline, but also in finding ways to augment individual and team learning experiences.
+            </p>
+          </div>
         </div>
-        <div class="column is-one-forth">
-          <a href="http://www.mindera.com" target="_blank">
-            <img alt="Mindera" src="assets/images/hosts/mindera.jpg" />
-          </a>
-        </div>
-        <div class="column is-one-forth">
-          <a href="http://www.blip.pt" target="_blank">
-            <img alt="Blip.pt - Web Engineers" src="assets/images/hosts/Blip_Logotipo.svg" />
-          </a>
-        </div>
-        <div class="column is-one-forth">
-          <a href="http://www.porto.io" target="_blank">
-            <img alt="Porto I/O" src="assets/images/hosts/PortoIO.svg" />
-          </a>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-one-forth">
-          <a href="https://www.hostelworld.com/" target="_blank">
-            <img alt="HostelWorld" class="width-is-128" src="assets/images/hosts/hostelworld-logo.png" />
-          </a>
-        </div>
-        <div class="column is-one-forth">
-          <a href="https://www.linkedin.com/showcase/bit-sonae/" target="_blank">
-            <img alt="Bit" class="width-is-128" src="assets/images/hosts/bit-sonae-logo.png" />
-          </a>
-        </div>
+      </article>
 
-        <div class="column is-one-forth">
-          <a href="https://www.criticalsoftware.com/" target="_blank">
-            <img alt="Critical Software" class="width-is-128" src="assets/images/hosts/CriticalSoftware.jpg" />
-          </a>
+      <!-- Filipe Correia -->
+      <article class="media">
+        {% include components/teamimage.html imagename="filipecorreia.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Filipe Correia</h3>
+            {% include components/teamhandle.html twitter="filipecorreia" linkedin="filipecorreia" github="filipefigcorreia" %}
+
+            <p>Filipe is currently a Platform Software Engineer at Uphold and lecturer at FEUP. He holds a PhD in Software Engineering and is a fan of design patterns, software design and architecture. He's also a fan of agile methods and in particular of the (seemingly) long-lost art of Extreme Programming.</p>
+
+            <p>In his spare time he organizes the Agile Portugal conference and the DevOps Porto meetups.</p>
+          </div>
         </div>
-        <div class="column is-one-forth">
-          <a href="https://www.farfetch.com/" target="_blank">
-            <img alt="Farfetch" class="width-is-128" src="assets/images/hosts/farfetchlogologotype.png" />
-          </a>
+      </article>
+
+      <!-- Miguel David -->
+      <article class="media">
+        {% include components/teamimage.html imagename="migueldavid.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Miguel David</h3>
+            {% include components/teamhandle.html twitter="desfocado" linkedin="migueldavid" github="minac" %}
+
+            <p>
+              IT Engineer with 15 years of experience doing Cloud Infrastructure, Linux Systems Administration and Application Support,
+              Equipment Integration and Data Management.
+            </p>
+            <p>
+              Experience in providing international operational support (1st through 3rd line) and acting as the interface between clients and
+              developers in continuous and critical production systems.
+            </p>
+            <p>
+              I thrive on multicultural environments with good teamwork and learning opportunities.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="columns">
-        <div class="column is-one-forth">
-          <a href="https://www.celfocus.com/home/" target="_blank">
-            <img alt="Celfocus" class="width-is-128" src="assets/images/hosts/celfocus.png" />
-          </a>
+      </article>
+
+
+      <!-- Elisete Cruz -->
+      <article class="media">
+        {% include components/teamimage.html imagename="elisetecruz.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Elisete Cruz</h3>
+            {% include components/teamhandle.html twitter="elisetedcruz" linkedin="elisetecruz" %}
+
+            <p>Software Configuration and Release Engineer at <a href="https://www.faro.com/" target="_blank">FARO</a> . She started her career in the IT world 6 years ago. Her journey has been mainly in the Release Management role, but she had an adventure in development during 1 year.
+            </p>
+            <p>She is a fan of the DevOps culture and is taking her first steps in this wide world!
+              </p>
+          </div>
         </div>
-        <div class="column is-one-forth">
-          <a href="https://www.wearebitmaker.com" target="_blank">
-            <img alt="Bitmaker Software" class="width-is-128" src="assets/images/hosts/bitmaker.png" />
-          </a>
+      </article>
+
+      <!-- Marcelo Almeida -->
+      <article class="media">
+        {% include components/teamimage.html imagename="marceloalmeida.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Marcelo Almeida</h3>
+            {% include components/teamhandle.html twitter="malmeida86" linkedin="msalmeida" github="marcelosousaalmeida" %}
+
+            <p>
+              Currently a DevOps and Site Reliability Engineer at <a href="https://group.jumia.com/" target="_blank"> Jumia Group</a>, highly passionate about automation, monitoring and reliability. Always looking forward to build ultra-scalable and highly reliable systems.
+            </p>
+            <p>
+              I consider myself a big fan of open source and DevOps cultures.
+            </p>
+          </div>
         </div>
-        <div class="column is-one-forth">
-          <a href="http://www.euronext.com/pt-pt" target="_blank">
-            <img alt="Euronext" class="width-is-128" src="assets/images/hosts/euronextlogo.jpg" />
-          </a>
+      </article>
+
+      <!-- Ricardo Castro -->
+      <article class="media">
+        {% include components/teamimage.html imagename="ricardocastro.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Ricardo Castro</h3>
+            {% include components/teamhandle.html twitter="mccricardo" linkedin="ricardo-castro-9a039126" github="mccricardo" %}
+
+            <p>
+              DevOps and Site Reliability Engineer at <a href="https://uphold.com/" target="_blank"> Uphold</a> building highly performance, reliable and scalable systems. Strong believer in culture and team work.
+            </p>
+            <p>
+              Open source passionate, taekwondo amateur and metal lover.
+            </p>
+          </div>
         </div>
-        <div class="column is-one-forth">
-          <a href="http://www.devscope.net" target="_blank">
-            <img alt="Devscope" src="assets/images/hosts/devscope-mono-black.png" />
-          </a>
+      </article>
+
+      <!-- Claudio Freitas -->
+      <article class="media">
+        {% include components/teamimage.html imagename="claudiofreitas.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Cláudio Freitas</h3>
+            {% include components/teamhandle.html%}
+
+            <p>
+              Systems Engineer at <a href="http://mindera.com/" target="_blank"> Mindera</a> working at making infrastructure secure, resiliant and elastic.
+            </p>
+            <p>
+              I prefer to get things done.
+            </p>
+          </div>
         </div>
-      </div>
+      </article>
+
+      <!-- Marta Torneiro -->
+      <article class="media">
+        {% include components/teamimage.html imagename="martatorneiro.jpg" %}
+        <div class="media-content">
+          <div class="content">
+            <h3>Marta Torneiro</h3>
+            {% include components/teamhandle.html linkedin="martatorneiro" %}
+            
+            <p>
+              Working on Quality Assurance for the past 4 years, and currently working as QA Team Lead @ <a href="https://www.hostelworld.com/" target="_blank">Hostelworld </a>, 
+              I’ve been an enthusiastic about process improvement/optimization, agile methodology and the DevOps culture.
+            </p>
+            <p>
+              I’ve been focusing on learning new tools, frameworks and techniques to help development teams see “Quality” 
+              as their core value and what makes it possible deliver a reliable and relevant product, continuously.
+            </p>
+          </div>
+        </div>
+      </article>
     </div>
   </div>
 </div>
